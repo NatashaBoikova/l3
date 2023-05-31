@@ -1,6 +1,6 @@
 function surname_change(){
     if (document.getElementById("surname_input").value != '' && document.getElementById("surname_input").value.match(/^[A-zА-яЁё]+$/))
-        document.getElementById("surname_output").innerText = alert("Ваше имя ") document.getElementById("surname_input").value;
+        document.getElementById("surname_output").innerText =  document.getElementById("surname_input").value;
     else (alert("Введите фамилию"));
 }
 function name_change(){
